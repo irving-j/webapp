@@ -92,7 +92,7 @@ function DepartureBoard() {
             <div style={styles.heading} >
                 <h1 style={styles.h1} >Commuter Rail Schedule</h1>
             </div>
-            Station: 
+            Choose a Station: 
             <select style={styles.select} onChange={handleChange} >
                 {stationList.map((station) => {
                     return <option value={station} >{station}</option>
